@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Palette+Mosaic&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#fondo{
+    background-image: url(../img/perro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+body{
+    background-color: black;
+}
+#titulo{
+    color: white;
+    display: inline-block;
+    width: 100%;
+    /* background-color: rgba(139, 69, 19, 0.301); */
+    /* margin-right: 40px; */
+}
+#titulo h1{
+    float: left;
+    /* padding: 20px; */
+    font-size: 40px;
+    margin-top: 90px;
+    background-color: rgba(0, 0, 0, 0.551);
+    margin-left: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#contenedorNav{
+    width: 100%;
+    margin: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 28px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.551);
+
+;
+}
+#contenedorNav h1{
+    margin-top: 20px;
+    margin-left: 10px;
+    /* background-color: rgba(0, 0, 0, 0.551); */
+}
+#cabeza{
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    /* background-color: rgba(139, 69, 19, 0.301); */
+    /* padding: 5px; */
+    color: black;
+}
+#cabeza h1{
+    float: left;
+}
+.menu{
+    float: right;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    margin-right: 25px;
+}
+.menu li{
+    list-style: none;   
+    float: left;
+    margin: 5px;  
+    padding: 0 20px;
+
+}
+.menu li a{
+    color: black;
+    text-align: none;
+    background-color: aliceblue; 
+    padding: 5px;   
+}
+.menu li ul{
+    display: none;
+    position: absolute;  
+    /* transform: translateY(-20%); */
+;
+
+}
+.menu li:hover ul {
+    display: block;
+    position: absolute;
+;
+
+}
+.menu li ul li{
+    /* margin-bottom: 20px; */
+    margin-top: 20px;
+;
+}
+#principal{
+    margin-top: 310px;
+    margin-left: 15px;
+    width: 40%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.551);
+    border: 4px double black;
+}
+#principal a{
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor-galeria{
+    width: 50%;
+    margin: 60px;
+    /* background-color: wi; */
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid white; */
+
+}
+.galeria{
+    /* margin: 70px; */
+    margin-left: 80px;
+    padding: 50px 0;
+}
+.contenedor-galeria img{
+    width: 45%;
+    height: 45%;
+    display: inline-block;
+    align-items: center;
+    border-radius: 20px;
+}
+main{
+    width: 100%;
+    margin: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    display: flex;
+}
+.container-main{
+    /* background-color: white; */
+    width: 70%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 45px;
+}
+.container-main p{
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    /* background-color: aliceblue; */
+    border-radius: 20px;
+
+}
+article{
+    width: 30%;
+    /* background-color: aliceblue; */
+    float: right;    
+    padding: 0 20px;
+}
+.container-article{
+    /* margin-left: 5px solid white; */
+}
+article p{
+    color: white;
+    padding: 20px ;
+    /* margin-left: 5px solid white; */
+    /* margin: 10px; */
+    font-size: 20px;
+    margin-top: 20px;
+    /* background-color: aliceblue; */
+    /* border-radius: 20px; */
+    border-left: 1px solid white;
+
+}
+.videopastor{
+    border: 1px solid white;
+    width: 38%;
+    /* height: 510px; */
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 200px;
+}
+video{
+    width: 500px;
+    height: 40%;
+    /* margin-left: 450px; */
+    /* margin-right: 200px; */
+    /* margin-bottom: 100px; */
+    border-radius: 1px solid white;
+}
+footer{
+    color: black;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
